@@ -19,7 +19,7 @@ $ pip install git+https://github.com/mentix02/pyprimer
 + `is_prime(int) -> bool`
     + Checks if given number n is prime.
 
-```pydocstring
+```python
 >>> from pyprimer import is_prime
 >>> is_prime(3)
 True
@@ -28,7 +28,7 @@ True
 + `primes_till(int) -> List[int]`
     + Returns a list of all primes numbers up until n.
 
-```pydocstring
+```python
 >>> from pyprimer import primes_till
 >>> primes_till(6)
 [2, 3, 5, 7]
@@ -37,7 +37,7 @@ True
 + `n_primes(int) -> List[int]`
     + Returns a list of first n natural primes numbers.
 
-```pydocstring
+```python
 >>> from pyprimer import n_primes
 >>> n_primes(6)
 [2, 3, 5, 7, 11, 13]
@@ -46,7 +46,7 @@ True
 + `n_prime(int) -> int`
     + Returns the nth prime number.
 
-```pydocstring
+```python
 >>> from pyprimer import n_prime
 >>> n_prime(13)
 41
@@ -55,7 +55,7 @@ True
 + `prime_generator() -> Iterator[int]`
     + Returns an iterable of ints with each next element being the next prime number.
 
-```pydocstring
+```python
 >>> from pyprimer import prime_generator
 >>> total = 0
 >>> g = prime_generator()
